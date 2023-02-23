@@ -26,7 +26,11 @@ a {
 .header {
   max-height: 700px;
   background-color: #eeeff1;
-  padding: 80px 0 140px;
+  padding: 76px 0 140px;
+}
+
+.header-nav {
+  margin-bottom: 142px;
 }
 
 .header-nav__list {
@@ -41,22 +45,34 @@ a {
   color: black;
 }
 
+.header-nav__link.active {
+  font-weight: 500;
+  color: #34547a;
+}
+
+.header-content {
+  max-width: 541px;
+}
+
 .header-content__title {
   font-weight: 500;
   line-height: 79px;
   font-size: 48px;
   color: black;
+  margin-top: 60px;
+  margin-bottom: 35px;
 }
 
 .header-content__description {
   color: #727272;
+  margin-bottom: 58px;
 }
 
 .header-content__link {
   display: flex;
   align-items: center;
   justify-content: center;
-  letter-spacing: 0.1;
+  letter-spacing: 0.1rem;
   color: #ffffff;
   padding: 0.5em;
   background-color: #34547a;

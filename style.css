@@ -16,6 +16,10 @@ html {
 a {
   text-decoration: none;
 }
+h2 {
+  font-size: 2rem;
+  line-height: 1.17;
+}
 
 .container {
   max-width: 1150px;
@@ -23,8 +27,12 @@ a {
   margin: 0 auto;
 }
 
+.container--sm {
+  max-width: 540px;
+}
+
 .header {
-  max-height: 700px;
+  min-height: 700px;
   background-color: #eeeff1;
   padding: 76px 0 140px;
 }
@@ -78,4 +86,69 @@ a {
   background-color: #34547a;
   min-height: 65px;
   width: 225px;
+}
+
+.main {
+}
+
+.about {
+  padding: 112px 0 100px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.about__title {
+  margin-bottom: 50px;
+}
+
+.achievements {
+  background-color: #34547a;
+  padding: 100px 0;
+  color: #ffffff;
+}
+
+.achievements__list {
+  display: flex;
+  list-style-type: none;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.achievement {
+  display: flex;
+  gap: 20px;
+}
+
+.work .container--sm {
+  margin: 0 auto;
+  margin-bottom: 57px;
+}
+
+.work {
+  background-color: #eeeff1;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.work__title {
+  margin-bottom: 50px;
+}
+
+.work__video {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
+.copyright {
+  background-color: #34547a;
+  color: #ffffff;
+  padding: 50px 0;
+}
+
+.copyright__title {
+  margin-bottom: 20px;
+  font-size: 1.31rem;
+  line-height: 1.19;
+}
+.copyright__text {
 }
